@@ -1,5 +1,6 @@
 #include "ProcessWaiter.h"
 #include "Logger.h"
+#include "stdafx.h"
  
 ProcessWaiter::ProcessWaiter(HANDLE process, auto_ptr<SqueakSemaphore> semaphore) :
     process(process),

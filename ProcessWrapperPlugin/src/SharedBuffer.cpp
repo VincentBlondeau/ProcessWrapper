@@ -1,6 +1,6 @@
 #include "SharedBuffer.h"
-#include <windows.h>
 #include "Logger.h"
+#include "stdafx.h"
 
 SharedBuffer::SharedBuffer() :
     closed(false) {

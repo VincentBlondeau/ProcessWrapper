@@ -42,7 +42,7 @@ class ExternalProcess {
     
     private: BOOL close_handle(HANDLE* handle);
 
-    public: BOOL create_process(char* command_line);
+    public: BOOL create_process(LPWSTR command_line);
 
     public: BOOL show_window_at_startup();
 

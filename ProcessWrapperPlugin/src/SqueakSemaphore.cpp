@@ -1,5 +1,6 @@
 #include "SqueakSemaphore.h"
 #include "Logger.h"
+#include "stdafx.h"
 
 extern "C" int signalSemaphore(int);
 

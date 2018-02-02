@@ -111,7 +111,7 @@ BOOL ExternalProcess::close_handle(HANDLE* handle) {
     return true;
 }
 
-BOOL ExternalProcess::create_process(char* command_line) {
+BOOL ExternalProcess::create_process(LPWSTR command_line) {
     HANDLE child_stdin = INVALID_HANDLE_VALUE;
     HANDLE child_stdout = INVALID_HANDLE_VALUE;
     HANDLE child_stderr = INVALID_HANDLE_VALUE;

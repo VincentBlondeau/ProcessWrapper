@@ -1,7 +1,7 @@
 #include "Logger.h"
 #include "ExternalProcess.h"
 #include "SqueakSemaphore.h"
-#include <memory>
+#include "stdafx.h" 
 
 using std::auto_ptr;
 
@@ -25,7 +25,7 @@ Export void remove_process(ExternalProcess* process) {
 // ExternalProcess functions
 
 // Process execution/termination
-Export BOOL start_process(ExternalProcess* process, char* command_line) {
+Export BOOL start_process(ExternalProcess* process, LPWSTR command_line) {
     return process->create_process(command_line);
 }
 
