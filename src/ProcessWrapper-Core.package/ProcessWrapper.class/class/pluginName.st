@@ -1,0 +1,4 @@
+plugin handling
+pluginName
+	
+	^'ProcessWrapperPlugin'

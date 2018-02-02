@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "ul 7/20/2007 21:13",
+	"super" : "ProcessWrapperTests",
+	"category" : "ProcessWrapper-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ProcessWrapperUnixUtilsTests",
+	"type" : "normal"
+}

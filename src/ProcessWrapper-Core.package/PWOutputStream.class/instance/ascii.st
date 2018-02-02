@@ -1,0 +1,4 @@
+public
+ascii
+
+	binary := false

@@ -1,0 +1,4 @@
+public
+binary
+
+	binary := true

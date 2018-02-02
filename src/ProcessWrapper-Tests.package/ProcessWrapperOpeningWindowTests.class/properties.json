@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ProcessWrapperTests",
+	"category" : "ProcessWrapper-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ProcessWrapperOpeningWindowTests",
+	"type" : "normal"
+}

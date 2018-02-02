@@ -1,0 +1,4 @@
+doits
+pluginName
+	
+	^'ProcessWrapperPlugin'

@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ProcessWrapper-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Registry"
+	],
+	"instvars" : [
+		"processPointer",
+		"useStdout",
+		"useStderr",
+		"stdoutStream",
+		"stderrStream",
+		"waiterSemaphore"
+	],
+	"name" : "ProcessWrapper",
+	"type" : "normal"
+}

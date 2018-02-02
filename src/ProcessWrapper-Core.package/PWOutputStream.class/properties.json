@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ProcessWrapper-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"processWrapper",
+		"readerSelector",
+		"semaphoreSetterSelector",
+		"semaphore",
+		"dataStream",
+		"atEnd",
+		"binary"
+	],
+	"name" : "PWOutputStream",
+	"type" : "normal"
+}
